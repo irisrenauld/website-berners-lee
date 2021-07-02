@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(240, 240, 240);
+    margin: none;
+    padding: none;
+    font-family : 'Open Sans', sans-serif ;
+}
+div.box{
+    background-color: white;
+    border: 2px solid rgb(219, 219, 219);
+    margin: 2rem auto ;
+    padding: 20px;
+    color: gray;
+    border-radius: 5px;
+    max-width: 500px;
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(236, 100, 100) ;
+    text-decoration:none;
+    border: none;
+    padding: 0.7rem ;
+    margin: -0.6rem;
+    border-radius: 5px;
+}
+div.movies-content{
+    display: flex;
+    flex-direction: row;
+}
+div.movies-content-text{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+#tim{
+    text-align: center;
+}
+#tim img{
+    border-radius: 100%;
+    width: 20%;
+    border: 3px solid rgb(219, 219, 219);
+}
+h1{
+    color: rgb(236, 100, 100);
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+h2{
+    font-weight: 200;
+}
+h2 span{
+    background-color: rgb(219, 219, 219);
+}
+p span{
+    font-weight: 800;
+}
+div button{
+    color:rgb(236, 100, 100) ;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.lien{
+    text-align: center;
+}
+div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+div ul li{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+div ul li i{
+    font-size: 2rem;
+}
+#movies{
+    text-align: center;
+}
+.movies-content{
+    background-color: transparent;
+    border: none;
+}
